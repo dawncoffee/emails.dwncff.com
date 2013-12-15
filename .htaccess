@@ -1,0 +1,5 @@
+Options All -Indexes
+
+<IfModule mod_rewrite.c>
+redirect 301 /es/dawncoffee/mass/segundo-aniversario/20131118 /courrier/es/aniversario/20131118
+</IfModule>
