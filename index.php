@@ -20,7 +20,7 @@
 <section>
 <div class="container">			
 <h3><span style="opacity:.3">(emails)</span> Dawncoffee</h3>
-<p>Hogar de la mensajería de Dawncoffee. En unos segundos te llevaremos directamente al blog. Gracias por la inesperada visita.</p>
+<p><a href="http://emails.dwncff.com/courrier/es/aniversario/20131118/">Aniversario 2013</a></p>
 </div>
 </section>
 
