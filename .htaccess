@@ -2,12 +2,10 @@ Options All -Indexes
 
 <IfModule mod_rewrite.c>
 
-# If requested resource exists as a file or directory, skip next two rules
-RewriteCond %{DOCUMENT_ROOT}/$1 -f [OR]
-RewriteCond %{DOCUMENT_ROOT}/$1 -d
-RewriteRule (.*) - [S=2]
-#
-# Else rewrite requests for non-existent resources to /index.php
-RewriteRule (.*) at.dawncoffee.com [L]
+RewriteEngine On
+# 404 test -- file/folder exists?
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^/?(.*) http://at.dawncoffee.com [R=301]
 
 </IfModule>
