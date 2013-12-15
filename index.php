@@ -1,9 +1,9 @@
 <!doctype html>
 <html lang="es-ES">
 <head>
-<title>Esto no es Dawncoffee</title>
+<title>(core) Dawncoffee</title>
 <meta charset="utf-8"/>
-<link rel="shortcut icon" href="http://core.images.dawncoffee.com/favicon/es/favicon.png" />
+<link rel="shortcut icon" href="http://core.images.dawncoffee.com/global/c/favicon/es/favicon.png" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 <meta http-equiv="refresh" content="10; url=http://dawncoffee.com">
@@ -19,14 +19,14 @@
 
 <section>
 <div class="container">			
-<h3><span style="opacity:.3">Esto no es</span> Dawncoffee</h3>
-<p>Aquí sólo nos preocupamos de los correos electrónicos de nuestro blog. No te preocupes, en unos segundos esta página te llevará automáticamente al blog. ¡Gracias por la inesperada visita!</p>
+<h3><span style="opacity:.3">(emails)</span> Dawncoffee</h3>
+<p>Hogar de la mensajería de Dawncoffee. En unos segundos te llevaremos directamente al blog. Gracias por la inesperada visita.</p>
 </div>
 </section>
 
 <footer>
 <div class="container">	
-<p><small>&copy; 2013 <em>Dawncoffee</em></small></p>
+<p><small>&copy; <script>document.write(new Date().getFullYear())</script> <em>Dawncoffee</em></small></p>
 </div>
 </footer>
 
