@@ -1,5 +1,13 @@
 Options All -Indexes
 
 <IfModule mod_rewrite.c>
-redirect 301 /es/dawncoffee/mass/segundo-aniversario/20131118/index.html /courrier/es/aniversario/20131118
+
+# If requested resource exists as a file or directory, skip next two rules
+RewriteCond %{DOCUMENT_ROOT}/$1 -f [OR]
+RewriteCond %{DOCUMENT_ROOT}/$1 -d
+RewriteRule (.*) - [S=2]
+#
+# Else rewrite requests for non-existent resources to /index.php
+RewriteRule (.*) at.dawncoffee.com [L]
+
 </IfModule>
