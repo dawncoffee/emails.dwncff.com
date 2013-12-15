@@ -21,7 +21,7 @@
 <section>
 <div class="container">			
 <h3><span style="opacity:.3">(emails)</span> Dawncoffee</h3>
-<p>Aquí vive la mensajería del blog. En unos segundos volveras a él. Gracias por la inesperada visita.</p>
+<p>Aquí vive la mensajería del blog. En unos segundos volverás a él. Gracias por la inesperada visita.</p>
 </div>
 </section>
 
