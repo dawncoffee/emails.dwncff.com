@@ -6,6 +6,6 @@ RewriteEngine On
 # 404 test -- file/folder exists?
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^/?(.*) http://at.dawncoffee.com [R=301]
+RewriteRule ^/?(.*) http://at.dawncoffee.com [R=302]
 
 </IfModule>
